@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EllipsizeTextViewDemo</string>
+    <string name="long_text">更多关于Android相关内容感兴趣的读者可查看本站专题就需要自定义这个省略号的样式并且对压缩掉的部分用但是出于可移植性原因这是不可接受的解决方案</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:divider="@drawable/divider_horizontal"
+    app:showDividers="middle"
+    tools:context=".MainActivity">
+
+
+    <com.dinuscxj.ellipsize.EllipsizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="@string/long_text"
+        app:ellipsize_index="1"
+        app:ellipsize_text="。。。"/>
+
+    <com.dinuscxj.ellipsize.EllipsizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="@string/long_text"/>
+
+    <com.dinuscxj.ellipsize.EllipsizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/long_text"
+        app:ellipsize_index="1"/>
+
+    <com.dinuscxj.ellipsize.EllipsizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/long_text"
+        android:textSize="16sp"
+        app:ellipsize_index="8"
+        app:ellipsize_text="..."/>
+</android.support.v7.widget.LinearLayoutCompat>
